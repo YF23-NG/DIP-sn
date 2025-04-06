@@ -1,0 +1,6 @@
+clc
+close all
+clear all
+pkg load image
+ img=[0 0 0 0 0;256 256 256 256 0;256 256 256 0 256;256 256 0 256 256;256 0 256 256 256;0 0 0 0 0];
+imshow(img)
