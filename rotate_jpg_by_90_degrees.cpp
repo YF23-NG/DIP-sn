@@ -13,9 +13,9 @@ int main() {
 
     //Rotating
     int count = 0;
-    unsigned char* arr = new unsigned char[width*height*3];
+    unsigned char* arr = new unsigned char[width*height*channels];
 
-    for (int i = 0; i < width * height * 3; i++)
+    for (int i = 0; i < width * height * channels; i++)
     {
         arr[i] = img[i];
     }
